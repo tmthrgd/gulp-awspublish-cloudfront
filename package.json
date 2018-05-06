@@ -1,0 +1,30 @@
+{
+  "name": "gulp-awspublish-cloudfront",
+  "version": "0.0.0",
+  "description": "A plugin to invalidate a CloudFront cache on publish for gulp-awspublish.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmthrgd/gulp-awspublish-cloudfront.git"
+  },
+  "keywords": [
+    "gulp-awspublish",
+    "aws",
+    "cloudfront",
+    "cache"
+  ],
+  "author": "Tom Thorogood (https://tomthorogood.co.uk/)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/tmthrgd/gulp-awspublish-cloudfront/issues"
+  },
+  "homepage": "https://github.com/tmthrgd/gulp-awspublish-cloudfront#readme",
+  "dependencies": {
+    "aws-sdk": "^2.233.1",
+    "fancy-log": "^1.3.2",
+    "through2": "^2.0.3"
+  }
+}
