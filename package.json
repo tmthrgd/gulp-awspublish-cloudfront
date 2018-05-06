@@ -1,6 +1,6 @@
 {
   "name": "gulp-awspublish-cloudfront",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A plugin to invalidate a CloudFront cache on publish for gulp-awspublish.",
   "main": "index.js",
   "scripts": {
